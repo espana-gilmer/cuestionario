@@ -1,0 +1,48 @@
+Integrantes: Dante Alejandro García Cruz y Gilmer Darío España López
+Grupo: 4°F Vespertina
+
+1. En tus palabras, ¿Qué es internet?
+El internet es una especie de malla virtual, es decir muchas redes interconectadas entre sí, donde se intercanbia información
+entre dispositivos electrónicos que no necesariamente necesitan estar cerca entre sí, todo esto mediante códigos organizados jerarquicamente.
+Éste modelo funciona gracias a la gente que comparte información con los demás, pues para eso existe.
+
+2. Describe los medios físicos y de propagación de ondas por los que se transmite la información en internet.
+
+3. ¿Cómo se organiza internet? Habla de las direcciones IP y los DNS.
+Para que se pueda usar el internet sin problemas no importando cuánta gente lo use, se tienen las direcciones IP y los DNS. La dirección IP 
+(siglas en inglés para "Internet Protocol") es una dirección única que permite a tu dispositivo diferenciarse de otros y así poder comunicarse 
+apropiadamente con otros dispositivos, como si de casas y empresas se tratara. Estas direcciones están ordenadas jerarquicamente y escritas en
+un sistema de bits. Anteriormente, se usaba un sistema de 32 bits, pero debido al creciente uso del internet, esto a cambiado hasta 128 bits.
+Por otra parte, los DNS (siglas en unglés para "Domain Name System") son un sistema que asocian ciertos nombres a cada dirección IP para que así
+el dispositivo  se conecte al destino. Debido al tamaño del internet, existen varios servidores DNS distribuidos jerarquicamente y por zonas
+(ejemplos son: .com, .org, entre otros). A veces, los hackers atacan estos servidores DNS reemplazando una dirección IP con otra para que así
+el consumidor sea redireccionado a otro sitio, a uno falso.
+
+4. Describe el procedimiento por el cual una canción de Spotify llega del servidor de la compañía a tu celular.
+
+5. Describe los protocolos que existen en internet, en específico HTTP y HTML.
+Cuando un dispositivo se comunica con un servidor, estos lo hacen mediante un lenguaje llamado HTTP (siglas en inglés para 
+"Hyper Text Internet Protocol"). Cuando uno quiere interceptar la conversación entre el dispositivo propio y un servidor, esto se hace con algo
+llamado petición "GET", donde indicas que quieres el código HTML (siglas en inglés para "Hyper Text Markup Languaje"), el cuál es el lenguaje 
+donde indicas a un navegador web como presentar la página. El texto de una página se encuentra en el código HTML, sin embargo para las fotos o
+los videos el navegador manda peticiones HTTP separadas para cada material audiovisual.
+Por otro lado, cuando uno manda información al propio navegador web, este manda la información en texto plano mediante una petición HTTP POST. De 
+esta  manera, cuando uno intenta ingresar a un sitio web, manda una POST request. De esta manera, el servidor guarda cierta información que se
+recuerda cada vez que uno enra a la página.
+Por último, para proteger esta interacción entre nuestro dispositivo y el servidor, existen los protocolos Secure Sockets Layer y su sucesor
+Transport Layer Security, además de los protocolos HTTPS que protegen la dirección.
+
+6. En dos párrafos cuéntanos lo que aprendiste sobre encriptación y llaves públicas.
+
+7. En dos párrafos cuéntanos lo que aprendiste sobre cómo protegerte de los criminales en internet.
+El crimen cibernético se debe a que se explota las debilidades en el hardware o en el software, o gracias a las acciones no intencionales que 
+uno realiza en el dispositivo. Debido al riesgo que representa el crimen cibernético para la sociedad, hay países que tienen un ejército
+cibernético preparado para castigar los crimenes del internet. Así entonces uno debe buscar la manera de hacer a su dispositivo lo más seguro 
+posible.
+Este crimen cibernético se da mediante los virus, ataques de negación y engaños de phishing. Los virus funcionan similar a los de la vida real,
+es decir que primero infectan a un dispositivo y ya desde ahí se propagan a otros. Estos pueden tomar control de ciertos aspectos de tu 
+dispositivo y surgen debido a instalaciones indebidas. Después están los ataques de Denegación de Servicio Distributivo, donde el atacante abruma
+un sitio web con cosas innecesarias para que no responda. Por último se encuentran los "Phishing Scam",donde llenan un correo electrónico con mucho
+"spam", donde te intentan engañar para robarte datos.
+
+8. ¿Cómo funciona la búsqueda de google?
