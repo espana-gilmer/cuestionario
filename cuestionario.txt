@@ -4,14 +4,14 @@ Grupo: 4°F Vespertina
 1. En tus palabras, ¿Qué es internet?
 El internet es una especie de malla virtual, es decir muchas redes interconectadas entre sí, donde se intercanbia información
 entre dispositivos electrónicos que no necesariamente necesitan estar cerca entre sí, todo esto mediante códigos organizados jerarquicamente.
-Éste modelo funciona gracias a la gente que comparte información con los demás, pues para eso existe.
+Éste modelo funciona gracias a la gente que comparte información con los demás, pues para eso existe. <!-- ---- 6oct | @SRTP: ok ----  -->
 
 2. Describe los medios físicos y de propagación de ondas por los que se transmite la información en internet. Mediante un cable Ethernet podemos
 mandar bits, pero se pierde mucha señal lo único bueno es que es barato. Pero si queremos mandar información a largas distancias podemos usar
 un cable de fibra óptica, ya que refleja la luz y debido a esto es muy rápido, pero es muy  caro y difícil de controlar. Para la propagación
 de ondas podemos usar señales de radio para que esto pueda suceder las máquinas tienen que traducir los 1 y 0 en ondas de radio y cuando llegan a 
 nuestra computadora lo transforman de ondas de radio a código binario la ventaja de esto es que es móvil, pero la desventaja es que tienen un rango
-muy corto 
+muy corto  <!-- ---- 6oct | @SRTP: ok ----  -->
 
 3. ¿Cómo se organiza internet? Habla de las direcciones IP y los DNS.
 Para que se pueda usar el internet sin problemas no importando cuánta gente lo use, se tienen las direcciones IP y los DNS. La dirección IP 
@@ -21,11 +21,11 @@ un sistema de bits. Anteriormente, se usaba un sistema de 32 bits, pero debido a
 Por otra parte, los DNS (siglas en unglés para "Domain Name System") son un sistema que asocian ciertos nombres a cada dirección IP para que así
 el dispositivo  se conecte al destino. Debido al tamaño del internet, existen varios servidores DNS distribuidos jerarquicamente y por zonas
 (ejemplos son: .com, .org, entre otros). A veces, los hackers atacan estos servidores DNS reemplazando una dirección IP con otra para que así
-el consumidor sea redireccionado a otro sitio, a uno falso.
+el consumidor sea redireccionado a otro sitio, a uno falso. <!-- ---- 6oct | @SRTP: ok ----  -->
 
 4. Describe el procedimiento por el cual una canción de Spotify llega del servidor de la compañía a tu celular. A través de paquetes de información
 mediante el internet, el router ayuda a escoger los caminos por los cuales los paquetes de información van a  viajar basado en la dirección IP
-y el TCP nos ayuda a verificar que todo es correcto si algún paquete falta TCP avisa para que lo vuelvan a mandar 
+y el TCP nos ayuda a verificar que todo es correcto si algún paquete falta TCP avisa para que lo vuelvan a mandar  <!-- ---- 6oct | @SRTP: ok ----  -->
 5. Describe los protocolos que existen en internet, en específico HTTP y HTML.
 Cuando un dispositivo se comunica con un servidor, estos lo hacen mediante un lenguaje llamado HTTP (siglas en inglés para 
 "Hyper Text Internet Protocol"). Cuando uno quiere interceptar la conversación entre el dispositivo propio y un servidor, esto se hace con algo
@@ -36,19 +36,20 @@ Por otro lado, cuando uno manda información al propio navegador web, este manda
 esta  manera, cuando uno intenta ingresar a un sitio web, manda una POST request. De esta manera, el servidor guarda cierta información que se
 recuerda cada vez que uno enra a la página.
 Por último, para proteger esta interacción entre nuestro dispositivo y el servidor, existen los protocolos Secure Sockets Layer y su sucesor
-Transport Layer Security, además de los protocolos HTTPS que protegen la dirección.
+Transport Layer Security, además de los protocolos HTTPS que protegen la dirección. <!-- ---- 6oct | @SRTP: ok ----  -->
 
 6. En dos párrafos cuéntanos lo que aprendiste sobre encriptación y llaves públicas. En el internet se comparten muchas cosas pero algunas son 
 privadas como datos bancarios o correos con cosas importantes para que esto siga privado existe la criptografía que esconde el mensaje cambiándolo 
 o revolviéndolo el texto original uno de los más comunes es el algoritmo de código de cesar que sustituye cada palabra y un cierto número de pasos 
 debajo del alfabeto, para que el lector pueda ver lo que dice necesita una llave, pero el problema del algoritmo de cesar es lo fácil que se puede resolver
 un humano máximo se podría tardar 1 hora  
+<!-- ---- 6oct | @SRTP: ok ----  -->
 
 Para hacer el mensaje más difícil de descifrar en lugar de usar el algoritmo de cesar podemos cambiar cada letra con un número diferente esto lo hace más 
 difícil para un humano, pero no para una computadora, ya que puede resolverlo fácilmente para que sea imposible de descifrar usamos una llave de 256 bits ya 
 que las posibilidades son casi infinitas y ninguna computadora puede hacerlo
 Para poder intercambiar mensajes fácilmente podemos usar una llave de cifrado asimétrico en el cuales todos pueden depositar un mensaje, pero solo tú puedes verlo
-
+<!-- ---- 6oct | @SRTP: ok ----  -->
 
 7. En dos párrafos cuéntanos lo que aprendiste sobre cómo protegerte de los criminales en internet.
 El crimen cibernético se debe a que se explota las debilidades en el hardware o en el software, o gracias a las acciones no intencionales que 
@@ -60,8 +61,10 @@ es decir que primero infectan a un dispositivo y ya desde ahí se propagan a otr
 dispositivo y surgen debido a instalaciones indebidas. Después están los ataques de Denegación de Servicio Distributivo, donde el atacante abruma
 un sitio web con cosas innecesarias para que no responda. Por último se encuentran los "Phishing Scam",donde llenan un correo electrónico con mucho
 "spam", donde te intentan engañar para robarte datos.
+<!-- ---- 6oct | @SRTP: ok ----  -->
 
 8. ¿Cómo funciona la búsqueda de google? Primero el buscador busca cada una de las palabras en el índice de búsqueda y poder determinar cuáles son las 
 mejores opciones para mostrarte primero y para lograr esto se fijan en el título en la secuencia y las palabras clave y a partir de eso acomodan las páginas
 Por ejemplo una página que cumple con los 3 puntos se mostrara primero que uno que solo cumple con 2 también se puede usar un algoritmo llamado "Clasificación de páginas" 
 donde las demás páginas piensan que una página es mejor y se muestran primero 
+<!-- ---- 6oct | @SRTP: ok ----  -->
